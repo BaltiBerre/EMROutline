@@ -1,0 +1,18 @@
+/* custom-styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Only keep truly custom styles that can't be done with Tailwind */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add any other truly custom styles here */
